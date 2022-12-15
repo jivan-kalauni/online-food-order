@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <section class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/images/logo.png" alt="" class="logo-img">
+                </a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="catagories.html">Catagories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="food.html">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- order details -->
+    <section class="food-order">
+        <div class="order-form">
+            <div class="food-qnty">
+                <form action="">
+                    <fieldset>
+                        <legend>Selected Food</legend>
+                        <div class="image">
+                            <img src="/images/pizza.jpg" alt="">
+                        </div>
+                        <div class="detail">
+                            <h3>Pizza</h3>
+                            <p class="price">$2.3</p>
+                            <h4 class="quantity">Quantity</h4>
+                            <input type="number" name="qnty" id="qnty" value="1" required>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="order-details">
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <form action="">
+
+                        <div class="customer-detail">
+                            <h4>Full Name</h4>
+                            <input type="text" name="fname" id="fname" placeholder="Full Name">
+                        </div>
+                        <div class="customer-detail">
+                            <h4>Phone Number</h4>
+                            <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="customer-detail">
+                            <h4>Email</h4>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="customer-detail">
+                            <h4>Address</h4>
+                            <input type="text" name="address" id="address" placeholder="Address">
+                        </div>
+
+                    </form>
+                </fieldset>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="footer-container">
+            <div class="social-media">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>&copy;:jivan-kalauni2023-All rights reversed</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
